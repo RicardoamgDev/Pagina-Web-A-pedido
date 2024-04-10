@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julien Project</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style.css"> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    
+</head>
+<body>
+
+   
+    
+    <!-- Navbar -->
+<header>
+    <!-- Nav container -->
+    <div class="nav container">
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <!-- AQUI VA EL LOGO -->
+    <a href="index.html" class="logo">C.T  <span> SERVICIOS AIR </span>LTDA.</a>
+    <!-- nav list -->
+    <ul class="navbar">
+        <li><a href="#home" class="active">Inicio</a></li>
+        <li><a href="products.html">Productos</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#sobre">Nosotros</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+    </ul>
+        </div>  
+    
+</header>
+
+
+<br><br>
+<br> <br>
+<br>
+
+
+<!-- Seccion de Contacto  -->
+
+<section class="contact">
+    <div class="container contact_container">
+        <aside class="contact_aside">
+            <div class="aside_image">
+                <img src="img/Contactanos.png" alt="">
+            </div>
+            <h2>Contactanos</h2>
+       
+            <p> 
+                Gracias por contactarnos. 
+                Valoramos tu interés y estamos aquí para ayudarte. 
+                Por favor, completa el formulario con tus detalles y consulta, 
+                y nos pondremos en contacto contigo lo antes posible. 
+                ¡Esperamos poder asistirte pronto!
+            </p>
+
+            <ul class="contact_details">
+                <li>
+                <i class='bx bx-phone' ></i>
+                <h5>+569 9 5846 7754</h5>
+                </li>
+
+                <li>
+                <i class="bx bx-envelope"></i>
+                <h5>Ctservicios@gmail.com</h5>
+                </li>
+
+                <li>
+                <i class="bx bx-location-plus"></i>
+                <h5> Region Metropolitana, Buin. </h5> 
+                
+                </li>
+            </ul>
+
+                <br>
+                <br>
+
+                <ul class="contact_socials">
+                <li> <a href="#" ><i class='bx bxl-facebook'></i></a> </li>
+                <li> <a href="#" ><i class='bx bxl-whatsapp' ></i></a> </li>
+                <li><a href="#" ><i class='bx bxl-gmail'></i></a> </li>   
+                </ul>
+                </aside>
+
+                <form action="https://api.web3forms.com/submit" method="post" class="contact_form" id="contact_form">
+                    <input type="hidden" name="access_key" value="e250c92f-1eca-44c5-ade5-17031b6b9b04">
+                    <div class="form_name">
+                        <input type="text" name="Nombre" class="input_field" placeholder="Primer nombre" required>
+                        <input type="text" name="Apellido" class="input_field" placeholder="Apellido" required>
+                        <input type="text" name="Numero de celular" class="input_field" placeholder="Numero" required>
+                    </div>
+                    <div class="form_name">
+                        <input type="text" name="Compañia" class="input_field" placeholder="Empresa" required>
+                        <input type="text" name="Correo electronico" class="input_field" placeholder="Tu correo electrónico" required>
+                    </div>
+                    <textarea name="Message" rows="7" placeholder="Escribe un mensaje aquí."></textarea>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    <div id="result"></div> <!-- Div para mostrar el resultado del envío -->
+                </form>
+                <br>
+                <br>
+</section>
+
+
+
+<br>
+<br>
+<br>
+<br><br><br>
+
+
+
+<section class="footer">
+    <div class="footer-container container">
+        <div class="footer-box">
+            <a href="#" class="logo">C.T <span>Servicios Air </span>Limitada</a>
+            <div class="social">
+                <a href="#" ><i class='bx bxl-facebook'></i></a>
+                <a href="#" ><i class='bx bxl-whatsapp' ></i></a>
+                <a href="#" ><i class='bx bxl-gmail'></i></a>
+            </div>
+        </div>
+            <div class="footer-box">
+                <h3>Paginas</h3>
+                <a href="#home" class="active">Inicio</a>
+                <a href="#productos">Productos</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#sobre">Nosotros</a>
+                <a href="#contacto">Contacto</a>
+                <a href="#blog">Nuestro blog</a>
+            </div>
+
+            <div class="footer-box">
+                <h3>Legal</h3>
+                <a href="#home" class="active">Privacidad</a>
+                <a href="#productos">Politica de reembolsos</a>
+                <a href="#servicios">Politica de Cookies</a>
+            </div>
+    </div>
+</section>
+
+<div class="copyright">
+    <p>&#169; C.T. Servicios Air Ltda. Todos los derechos reservados</p>
+</div>
+
+
+<script src="https://web3forms.com/client/script.js" async defer></script>
+<script src="main.js"></script>
+</body>
+</html>
